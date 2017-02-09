@@ -2,7 +2,7 @@ FROM microsoft/aspnetcore
 
 WORKDIR /app
 
-COPY ./bin/Debug/netcoreapp1.1/publish .
+COPY ./publish .
 
 ENV ASPNETCORE_URLS http://+:80
 
